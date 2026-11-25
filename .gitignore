@@ -1,21 +1,94 @@
-# Generated files
-knex_poc_hls_extract/
+# **Python**
 
+**pycache**/  
+*.py[cod]  
+*$py.class  
+*.so  
+*.egg  
+*.egg-info/  
+dist/  
+build/  
+.eggs/  
+wheels/  
+pip-wheel-metadata/  
+share/python-wheels/  
+*.manifest  
+*.spec
 
-# Mac OS related
-.DS_Store
+# **Virtual environments**
 
+.venv/  
+venv/  
+env/  
+ENV/
 
-# Python related
-__pycache__/
+# **Python tooling**
 
-# Package related
-build
-dist
-knex.egg-info
+.pytest_cache/  
+.mypy_cache/  
+.ruff_cache/  
+.tox/  
+.nox/  
+.coverage  
+.coverage.*  
+htmlcov/  
+coverage.xml  
+.cache/
 
-# Generated files
-*.csv
-*.html
+# **Jupyter**
+
+.ipynb_checkpoints/
+
+# **Environment variables and secrets**
+
+.env  
+.env.*  
+!.env.example
+
+# **IDEs and editors**
+
+.vscode/  
+.idea/  
+*.swp  
+*.swo  
+*~
+
+# **macOS**
+
+.DS_Store  
+.AppleDouble  
+.LSOverride  
+._*  
+.Spotlight-V100  
+.Trashes  
+.fseventsd  
+.VolumeIcon.icns
+
+# **Logs**
+
 *.log
-*.pkl
+
+# **Temporary files**
+
+*.tmp  
+*.bak  
+*.orig
+
+# **Build / packaging**
+
+*.whl  
+*.tar.gz
+
+# **Documentation builds**
+
+docs/_build/
+
+# **Type checking**
+
+.pyright/  
+pyrightconfig.local.json
+
+# **Local configuration**
+
+config.local.*  
+settings.local.*
